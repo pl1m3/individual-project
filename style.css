@@ -1,0 +1,135 @@
+.boby {
+    font-family: "Oswald", sans-serif;
+    color: #0293DE;
+    font-size: 2vw;
+    font-weight: 300;
+
+}
+
+.header a {
+    color: #fff;
+}
+
+.header {
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0072BC;
+    width: auto;
+    min-height: 150px;
+    padding-inline: 60px;
+}
+
+.header-content-logo svg {
+    padding-bottom: 30px;
+}
+
+.header-content-text h1 {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.header-content-text p {
+    font-size: 3vw;
+    white-space: nowrap;
+}
+
+.header-nav {
+    background-color: #65AAD8;
+    padding: 9px 0 13px;
+    border-radius: 0 0 30px 30px;
+}
+
+.header-nav-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+    white-space: nowrap;
+    padding: 0 60px;
+    font-size: 2vw;
+}
+
+.str::after {
+    content: url(/icons/Down\ Button.png);
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+
+.header-content-link svg {
+    width: 68px;
+    height: 54px;
+}
+
+.photo-1 {
+    max-width: 80%;
+    border-radius: 30px;
+}
+
+.section-1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.photo-1-text {
+    font-weight: 300;
+    font-size: 5vw;
+}
+
+.arena {
+    padding-inline: 60px;
+    padding-top: 40px;
+}
+
+.arena h2 {
+    font-size: 5vw;
+}
+
+.arena-text-full {
+    margin-top: 40px;
+}
+
+.arena-text-full li {
+    margin-top: 20px;
+}
+
+.photocentra {
+    padding-inline: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+
+}
+
+.photocentra img {
+    padding: 30px;
+}
+
+.footer-content {
+    background-color: #0072BC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px 30px 0 0;
+}
+
+.footer-logo svg {
+    padding-bottom: 30px;
+}
+
+.footer-content-center p {
+    color: #fff;
+}
+
+.footer-right-link svg {
+    width: 40px;
+    height: 32px;
+}
