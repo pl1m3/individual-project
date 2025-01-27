@@ -55,17 +55,17 @@
     font-size: 2vw;
 }
 
-.str::after {
+/* .str::after {
     content: url(/icons/Down\ Button.png);
     position: relative;
     top: 5px;
     left: 5px;
 
-}
+} */
 
 .header-content-link svg {
-    width: 68px;
-    height: 54px;
+    width: 5vw;
+    height: 5vw;
 }
 
 .photo-1 {
@@ -130,6 +130,6 @@
 }
 
 .footer-right-link svg {
-    width: 40px;
-    height: 32px;
+    width: 5vw;
+    height: 5vw;
 }
