@@ -20,8 +20,8 @@
     align-items: center;
     background-color: #0072BC;
     width: auto;
-    min-height: 150px;
-    padding-inline: 60px;
+    /* min-height: 150px; */
+    padding-inline: 0px;
 }
 
 .header-content-logo svg {
@@ -41,7 +41,7 @@
 
 .header-nav {
     background-color: #65AAD8;
-    padding: 9px 0 13px;
+    padding: 1vw 0 1vw;
     border-radius: 0 0 30px 30px;
 }
 
@@ -51,7 +51,7 @@
     align-items: center;
     column-gap: 30px;
     white-space: nowrap;
-    padding: 0 60px;
+    padding: 0 0px;
     font-size: 2vw;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .photocentra {
-    padding-inline: 60px;
+    padding-inline: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -132,4 +132,8 @@
 .footer-right-link svg {
     width: 5vw;
     height: 5vw;
+}
+
+#svg251{
+    padding-bottom: 0;
 }
