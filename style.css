@@ -3,7 +3,9 @@
     color: #0293DE;
     font-size: 2vw;
     font-weight: 300;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header a {
@@ -42,7 +44,7 @@
 .header-nav {
     background-color: #65AAD8;
     padding: 1vw 0 1vw;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 2cap 2cap;
 }
 
 .header-nav-item {
@@ -70,7 +72,7 @@
 
 .photo-1 {
     max-width: 80%;
-    border-radius: 30px;
+    border-radius: 1cap;
 }
 
 .section-1 {
@@ -111,6 +113,10 @@
 
 .photocentra img {
     padding: 15px 30px;
+}
+
+.footer{
+    margin-top: auto;
 }
 
 .footer-content {
@@ -160,6 +166,7 @@
 .players_card_photo_container{
     width: 60vw
 }
+
 .players_card_photo{
     border-radius: 1cap;
 }
