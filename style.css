@@ -30,8 +30,9 @@ html {
     padding-inline: 0px;
 }
 
-.header-content-logo svg {
-    padding-bottom: 30px;
+.header-content-logo img {
+    width: 8vw;
+    margin-left: 40px;
 }
 
 .header-content-text h1 {
@@ -48,7 +49,6 @@ html {
 .header-nav {
     background-color: #65AAD8;
     padding: 1vw 0 1vw;
-    /* border-radius: 0 0 2cap 2cap; */
 }
 
 .header-nav-item {
@@ -61,17 +61,19 @@ html {
     font-size: 2vw;
 }
 
-/* .str::after {
-    content: url(/icons/Down\ Button.png);
-    position: relative;
-    top: 5px;
-    left: 5px;
-
-} */
-
 .header-content-link svg {
     width: 5vw;
     height: 5vw;
+}
+
+#cover{
+    background-image: url(/icons/Cover_bg.png);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    margin-bottom: 100px;
 }
 
 .photo-1 {
@@ -85,7 +87,12 @@ html {
 }
 
 .photo-1-text {
-    font-weight: 300;
+    margin-top: 50px;
+    width: 800px;
+    height: 80px;
+    background-color: #65AAD8;
+    color: #fff;
+    font-weight: 500;
     font-size: 5vw;
 }
 
@@ -131,8 +138,9 @@ html {
     /* border-radius: 1cap 1cap 0 0; */
 }
 
-.footer-logo svg {
-    padding-bottom: 30px;
+.footer-logo img {
+    margin-left: 30px;
+    width: 6vw;
 }
 
 .footer-content-center p {
@@ -216,6 +224,51 @@ html {
     height: auto;
     margin-right: 20px;
     object-fit: cover;
+}
+
+#partners{
+    display: flex;
+    justify-content: center;
+}
+
+.partners h2 {
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    width: 475px;
+    height: 85px;
+    background-color: #65AAD8;
+}
+
+.partner_card {
+    display: flex;
+    background-color: #65AAD8;
+    align-items: center;
+    margin-top: 50px;
+    width: 1200px;
+    height: 300px;
+    padding: 20px;
+}
+
+.partner_inf {
+    color: white;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.partner_inf h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.inff {
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 1.3;
 }
 
 @media (max-width: 768px) {
